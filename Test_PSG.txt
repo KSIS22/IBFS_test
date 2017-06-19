@@ -1,0 +1,2 @@
+export PGPASSWORD='Snehurka123'
+psql -U postgres -w -d jenkins-test -c "select * from city;" -o output.txt
