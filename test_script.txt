@@ -4,4 +4,4 @@ select * from city;
 
 \set ON_ERROR_STOP on
 
-select * from city;
+select * from city1;
