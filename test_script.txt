@@ -1,7 +1,9 @@
-\set ON_ERROR_STOP on
+$ psql -d test -v "ON_ERROR_STOP=1" <<EOF
+select error;
+select 'OK';
+EOF
+
+ERROR:  column "error" does not exist
+LINE 1: select error;
 
 select * from city;
-
-\set ON_ERROR_STOP on
-
-select * from city1;
