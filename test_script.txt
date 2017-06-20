@@ -6,4 +6,4 @@ EOF
 ERROR:  column "error" does not exist
 LINE 1: select error;
 
-select * from city;
+select * from city1;
