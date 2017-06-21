@@ -1,5 +1,4 @@
 \set ON_ERROR_STOP on
 
-psql -U postgres -d world1
 select * from public2.city EXCEPT select * from public.city; 
 
