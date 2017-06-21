@@ -1,3 +1,4 @@
 \set ON_ERROR_STOP on
 
-select * from city1;
+world1=# select * from public2.city EXCEPT select * from public.city; 
+
