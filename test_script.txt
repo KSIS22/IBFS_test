@@ -1,4 +1,4 @@
 \set ON_ERROR_STOP on
 
-select * from public2.city EXCEPT select * from public.city1; 
+select * from public2.city EXCEPT select * from public.city; 
 
