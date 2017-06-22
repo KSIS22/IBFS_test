@@ -2,8 +2,8 @@
 
 select * from public2.city EXCEPT select * from public.city; 
 
-if [ $? -eq 0 ]; then
-    echo OK
+
+.IF ACTIVITYCOUNT = 0 echo OK
 else
     echo FAIL
 fi
