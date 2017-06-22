@@ -3,9 +3,6 @@
 select * from public2.city EXCEPT select * from public.city; 
 
 
-.IF ACTIVITYCOUNT = 0 echo OK
-else
-    echo FAIL
-fi
-
+.IF ACTIVITYCOUNT = 0 THEN .QUIT 1;
+.QUIT 0;
 
