@@ -1,3 +1,11 @@
 \set ON_ERROR_STOP on
 
-select * from public22.city EXCEPT select * from public.city; 
+select * from public2.city EXCEPT select * from public.city; 
+
+if [ $? -eq 0 ]; then
+    echo OK
+else
+    echo FAIL
+fi
+
+
