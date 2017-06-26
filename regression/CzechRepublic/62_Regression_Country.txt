@@ -1,0 +1,1 @@
+select * from public2.city where countrycode = 'CZE' EXCEPT select * from public.city where countrycode = 'CZE';

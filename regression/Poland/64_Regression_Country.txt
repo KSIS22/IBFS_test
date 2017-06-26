@@ -1,0 +1,1 @@
+select * from public2.country where code='POL' EXCEPT select * from public.country where code='POL';
