@@ -1,1 +1,1 @@
-select * from public2.city where countrycode = 'DEU' EXCEPT select * from public.city where countrycode = 'DEU';
+select * from public2.country where code='DEU' EXCEPT select * from public.country where code='DEU';
